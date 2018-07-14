@@ -1,0 +1,48 @@
+
+body {
+    font: normal 12pt Veranda, Arial, sans-serif;
+    background-color: #DDDDDD;
+}
+
+div.post h1 {
+    /*  */
+}
+
+/* unvisited link */
+a:link {
+    color: #006600;
+}
+
+/* visited link */
+a:visited {
+    color: #006600;
+}
+
+/* mouse over link */
+a:hover {
+    color: #009900;
+}
+
+/* selected link */
+a:active {
+    color: #00cc00;
+} 
+
+.menutitle {
+    font-size: 32px;
+}
+
+.posttitle {
+    font-size: 48px;
+    font-weight: bold;
+}
+ 
+.contentbox {
+    margin: auto;
+    max-width: 960px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 12pt;
+    overflow: auto;
+    box-shadow: 3px 3px 3px #888888;
+}
